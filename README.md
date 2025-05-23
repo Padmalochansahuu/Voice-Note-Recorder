@@ -1,16 +1,36 @@
-# audio
+# 🎙️ EchoNote – Minimal Voice Note Recorder
 
-A new Flutter project.
+**EchoNote** is a lightweight Flutter app for recording, saving, and managing voice notes locally. Designed for speed and simplicity, it allows you to capture ideas, reminders, and thoughts on the go with no cloud dependencies.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+- 🎤 Record high-quality audio using the microphone
+- 📝 Add custom titles and short text descriptions
+- 🏷️ Tag notes (e.g., idea, work, reminder)
+- ▶️ Playback with intuitive audio controls
+- 🗂️ Organize notes by date and tags
+- 🧾 Edit note titles and descriptions
+- 🗑️ Delete recordings with confirmation
+- 🔁 Pull-to-refresh and automatic sort
+- 🌙 Light/Dark theme toggle
+- 📤 Share audio files with a single tap
+- 📊 View duration and storage usage stats
+- 📁 Save audio in local app directory
+- 📉 Simple waveform display (optional)
+- 📦 Offline-first, privacy-focused
+- 🧩 Built with Flutter and open-source plugins
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🧱 Tech Stack
+
+- **Flutter** (cross-platform UI toolkit)
+- **Audio Recording:** `flutter_sound` or `record` plugin
+- **File Management:** `path_provider`
+- **State Management:** `Provider` or `Riverpod`
+- **Theme Control:** System-based or toggle switch
+- **Audio Playback:** `just_audio` or similar
+- **Waveform UI:** Basic custom paint or plugin
+
